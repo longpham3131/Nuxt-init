@@ -4,11 +4,6 @@ import { defineNuxtConfig } from "nuxt";
 export default defineNuxtConfig({
   buildModules: ["@nuxtjs/google-analytics"],
   googleAnalytics: {
-    id: "G-W7PBVMBCSH", // Use as fallback if no runtime config is provided
-  },
-  publicRuntimeConfig: {
-    googleAnalytics: {
-      id: "G-W7PBVMBCSH",
-    },
+    id: "G-W7PBVMBCSH",
   },
 });
